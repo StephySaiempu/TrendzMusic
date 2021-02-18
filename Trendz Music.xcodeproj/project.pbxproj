@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF59AB1925DE8D6000DC9583 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF59AB1825DE8D6000DC9583 /* AppDelegate.swift */; };
+		BF59AB1B25DE8D6000DC9583 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF59AB1A25DE8D6000DC9583 /* SceneDelegate.swift */; };
+		BF59AB1D25DE8D6000DC9583 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF59AB1C25DE8D6000DC9583 /* ContentView.swift */; };
+		BF59AB1F25DE8D6100DC9583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF59AB1E25DE8D6100DC9583 /* Assets.xcassets */; };
+		BF59AB2225DE8D6100DC9583 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF59AB2125DE8D6100DC9583 /* Preview Assets.xcassets */; };
+		BF59AB2525DE8D6100DC9583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF59AB2325DE8D6100DC9583 /* LaunchScreen.storyboard */; };
+		BF59AB3025DE8D6100DC9583 /* Trendz_MusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF59AB2F25DE8D6100DC9583 /* Trendz_MusicTests.swift */; };
+		BF59AB3B25DE8D6100DC9583 /* Trendz_MusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF59AB3A25DE8D6100DC9583 /* Trendz_MusicUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF59AB2C25DE8D6100DC9583 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF59AB0D25DE8D6000DC9583 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF59AB1425DE8D6000DC9583;
+			remoteInfo = "Trendz Music";
+		};
+		BF59AB3725DE8D6100DC9583 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF59AB0D25DE8D6000DC9583 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF59AB1425DE8D6000DC9583;
+			remoteInfo = "Trendz Music";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF59AB1525DE8D6000DC9583 /* Trendz Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trendz Music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF59AB1825DE8D6000DC9583 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF59AB1A25DE8D6000DC9583 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BF59AB1C25DE8D6000DC9583 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF59AB1E25DE8D6100DC9583 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF59AB2125DE8D6100DC9583 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF59AB2425DE8D6100DC9583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF59AB2625DE8D6100DC9583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF59AB2B25DE8D6100DC9583 /* Trendz MusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trendz MusicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF59AB2F25DE8D6100DC9583 /* Trendz_MusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trendz_MusicTests.swift; sourceTree = "<group>"; };
+		BF59AB3125DE8D6100DC9583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF59AB3625DE8D6100DC9583 /* Trendz MusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trendz MusicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF59AB3A25DE8D6100DC9583 /* Trendz_MusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trendz_MusicUITests.swift; sourceTree = "<group>"; };
+		BF59AB3C25DE8D6100DC9583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF59AB1225DE8D6000DC9583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF59AB2825DE8D6100DC9583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF59AB3325DE8D6100DC9583 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF59AB0C25DE8D6000DC9583 = {
+			isa = PBXGroup;
+			children = (
+				BF59AB1725DE8D6000DC9583 /* Trendz Music */,
+				BF59AB2E25DE8D6100DC9583 /* Trendz MusicTests */,
+				BF59AB3925DE8D6100DC9583 /* Trendz MusicUITests */,
+				BF59AB1625DE8D6000DC9583 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF59AB1625DE8D6000DC9583 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF59AB1525DE8D6000DC9583 /* Trendz Music.app */,
+				BF59AB2B25DE8D6100DC9583 /* Trendz MusicTests.xctest */,
+				BF59AB3625DE8D6100DC9583 /* Trendz MusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF59AB1725DE8D6000DC9583 /* Trendz Music */ = {
+			isa = PBXGroup;
+			children = (
+				BF59AB1825DE8D6000DC9583 /* AppDelegate.swift */,
+				BF59AB1A25DE8D6000DC9583 /* SceneDelegate.swift */,
+				BF59AB1C25DE8D6000DC9583 /* ContentView.swift */,
+				BF59AB1E25DE8D6100DC9583 /* Assets.xcassets */,
+				BF59AB2325DE8D6100DC9583 /* LaunchScreen.storyboard */,
+				BF59AB2625DE8D6100DC9583 /* Info.plist */,
+				BF59AB2025DE8D6100DC9583 /* Preview Content */,
+			);
+			path = "Trendz Music";
+			sourceTree = "<group>";
+		};
+		BF59AB2025DE8D6100DC9583 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF59AB2125DE8D6100DC9583 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF59AB2E25DE8D6100DC9583 /* Trendz MusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF59AB2F25DE8D6100DC9583 /* Trendz_MusicTests.swift */,
+				BF59AB3125DE8D6100DC9583 /* Info.plist */,
+			);
+			path = "Trendz MusicTests";
+			sourceTree = "<group>";
+		};
+		BF59AB3925DE8D6100DC9583 /* Trendz MusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF59AB3A25DE8D6100DC9583 /* Trendz_MusicUITests.swift */,
+				BF59AB3C25DE8D6100DC9583 /* Info.plist */,
+			);
+			path = "Trendz MusicUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF59AB1425DE8D6000DC9583 /* Trendz Music */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF59AB3F25DE8D6100DC9583 /* Build configuration list for PBXNativeTarget "Trendz Music" */;
+			buildPhases = (
+				BF59AB1125DE8D6000DC9583 /* Sources */,
+				BF59AB1225DE8D6000DC9583 /* Frameworks */,
+				BF59AB1325DE8D6000DC9583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trendz Music";
+			productName = "Trendz Music";
+			productReference = BF59AB1525DE8D6000DC9583 /* Trendz Music.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF59AB2A25DE8D6100DC9583 /* Trendz MusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF59AB4225DE8D6100DC9583 /* Build configuration list for PBXNativeTarget "Trendz MusicTests" */;
+			buildPhases = (
+				BF59AB2725DE8D6100DC9583 /* Sources */,
+				BF59AB2825DE8D6100DC9583 /* Frameworks */,
+				BF59AB2925DE8D6100DC9583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF59AB2D25DE8D6100DC9583 /* PBXTargetDependency */,
+			);
+			name = "Trendz MusicTests";
+			productName = "Trendz MusicTests";
+			productReference = BF59AB2B25DE8D6100DC9583 /* Trendz MusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF59AB3525DE8D6100DC9583 /* Trendz MusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF59AB4525DE8D6100DC9583 /* Build configuration list for PBXNativeTarget "Trendz MusicUITests" */;
+			buildPhases = (
+				BF59AB3225DE8D6100DC9583 /* Sources */,
+				BF59AB3325DE8D6100DC9583 /* Frameworks */,
+				BF59AB3425DE8D6100DC9583 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF59AB3825DE8D6100DC9583 /* PBXTargetDependency */,
+			);
+			name = "Trendz MusicUITests";
+			productName = "Trendz MusicUITests";
+			productReference = BF59AB3625DE8D6100DC9583 /* Trendz MusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF59AB0D25DE8D6000DC9583 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BF59AB1425DE8D6000DC9583 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					BF59AB2A25DE8D6100DC9583 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BF59AB1425DE8D6000DC9583;
+					};
+					BF59AB3525DE8D6100DC9583 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BF59AB1425DE8D6000DC9583;
+					};
+				};
+			};
+			buildConfigurationList = BF59AB1025DE8D6000DC9583 /* Build configuration list for PBXProject "Trendz Music" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF59AB0C25DE8D6000DC9583;
+			productRefGroup = BF59AB1625DE8D6000DC9583 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF59AB1425DE8D6000DC9583 /* Trendz Music */,
+				BF59AB2A25DE8D6100DC9583 /* Trendz MusicTests */,
+				BF59AB3525DE8D6100DC9583 /* Trendz MusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF59AB1325DE8D6000DC9583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF59AB2525DE8D6100DC9583 /* LaunchScreen.storyboard in Resources */,
+				BF59AB2225DE8D6100DC9583 /* Preview Assets.xcassets in Resources */,
+				BF59AB1F25DE8D6100DC9583 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF59AB2925DE8D6100DC9583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF59AB3425DE8D6100DC9583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF59AB1125DE8D6000DC9583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF59AB1925DE8D6000DC9583 /* AppDelegate.swift in Sources */,
+				BF59AB1B25DE8D6000DC9583 /* SceneDelegate.swift in Sources */,
+				BF59AB1D25DE8D6000DC9583 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF59AB2725DE8D6100DC9583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF59AB3025DE8D6100DC9583 /* Trendz_MusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF59AB3225DE8D6100DC9583 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF59AB3B25DE8D6100DC9583 /* Trendz_MusicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF59AB2D25DE8D6100DC9583 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF59AB1425DE8D6000DC9583 /* Trendz Music */;
+			targetProxy = BF59AB2C25DE8D6100DC9583 /* PBXContainerItemProxy */;
+		};
+		BF59AB3825DE8D6100DC9583 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF59AB1425DE8D6000DC9583 /* Trendz Music */;
+			targetProxy = BF59AB3725DE8D6100DC9583 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF59AB2325DE8D6100DC9583 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF59AB2425DE8D6100DC9583 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF59AB3D25DE8D6100DC9583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF59AB3E25DE8D6100DC9583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF59AB4025DE8D6100DC9583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Trendz Music/Preview Content\"";
+				DEVELOPMENT_TEAM = V4VJMATRT2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Trendz Music/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stephy.trendzmusic.Trendz-Music";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF59AB4125DE8D6100DC9583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Trendz Music/Preview Content\"";
+				DEVELOPMENT_TEAM = V4VJMATRT2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Trendz Music/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stephy.trendzmusic.Trendz-Music";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF59AB4325DE8D6100DC9583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4VJMATRT2;
+				INFOPLIST_FILE = "Trendz MusicTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stephy.trendzmusic.Trendz-MusicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trendz Music.app/Trendz Music";
+			};
+			name = Debug;
+		};
+		BF59AB4425DE8D6100DC9583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4VJMATRT2;
+				INFOPLIST_FILE = "Trendz MusicTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stephy.trendzmusic.Trendz-MusicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trendz Music.app/Trendz Music";
+			};
+			name = Release;
+		};
+		BF59AB4625DE8D6100DC9583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4VJMATRT2;
+				INFOPLIST_FILE = "Trendz MusicUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stephy.trendzmusic.Trendz-MusicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Trendz Music";
+			};
+			name = Debug;
+		};
+		BF59AB4725DE8D6100DC9583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4VJMATRT2;
+				INFOPLIST_FILE = "Trendz MusicUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stephy.trendzmusic.Trendz-MusicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Trendz Music";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF59AB1025DE8D6000DC9583 /* Build configuration list for PBXProject "Trendz Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF59AB3D25DE8D6100DC9583 /* Debug */,
+				BF59AB3E25DE8D6100DC9583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF59AB3F25DE8D6100DC9583 /* Build configuration list for PBXNativeTarget "Trendz Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF59AB4025DE8D6100DC9583 /* Debug */,
+				BF59AB4125DE8D6100DC9583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF59AB4225DE8D6100DC9583 /* Build configuration list for PBXNativeTarget "Trendz MusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF59AB4325DE8D6100DC9583 /* Debug */,
+				BF59AB4425DE8D6100DC9583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF59AB4525DE8D6100DC9583 /* Build configuration list for PBXNativeTarget "Trendz MusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF59AB4625DE8D6100DC9583 /* Debug */,
+				BF59AB4725DE8D6100DC9583 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF59AB0D25DE8D6000DC9583 /* Project object */;
+}
