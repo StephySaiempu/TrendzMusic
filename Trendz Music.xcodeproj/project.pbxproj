@@ -102,6 +102,7 @@
 				BF59AB1825DE8D6000DC9583 /* AppDelegate.swift */,
 				BF59AB1A25DE8D6000DC9583 /* SceneDelegate.swift */,
 				BF59AB1C25DE8D6000DC9583 /* ContentView.swift */,
+				BF59AB4B25DE8D9C00DC9583 /* ConfigurationModule */,
 				BF59AB1E25DE8D6100DC9583 /* Assets.xcassets */,
 				BF59AB2325DE8D6100DC9583 /* LaunchScreen.storyboard */,
 				BF59AB2625DE8D6100DC9583 /* Info.plist */,
@@ -134,6 +135,13 @@
 				BF59AB3C25DE8D6100DC9583 /* Info.plist */,
 			);
 			path = "Trendz MusicUITests";
+			sourceTree = "<group>";
+		};
+		BF59AB4B25DE8D9C00DC9583 /* ConfigurationModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ConfigurationModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
