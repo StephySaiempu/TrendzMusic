@@ -3,18 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23FADFA81050629B061BE419 /* Pods_Trendz_MusicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0935EC6E26247023FDA27E0 /* Pods_Trendz_MusicTests.framework */; };
+		BF51A0A525E2051D00C40B73 /* ExppiredToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF51A0A425E2051D00C40B73 /* ExppiredToken.swift */; };
+		BF51A0BD25E21C7E00C40B73 /* DateFormatUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF51A0BC25E21C7E00C40B73 /* DateFormatUtil.swift */; };
+		BF51A0D225E21FE400C40B73 /* TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF51A0D125E21FE400C40B73 /* TimeInterval.swift */; };
+		BF51A0DD25E24FB600C40B73 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF51A0DC25E24FB600C40B73 /* BaseView.swift */; };
+		BF51A0EE25E25F0B00C40B73 /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF51A0ED25E25F0B00C40B73 /* SongCell.swift */; };
+		BF51A0F625E26B2C00C40B73 /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF51A0F525E26B2C00C40B73 /* PlayerController.swift */; };
+		BF51A0FB25E26B6000C40B73 /* BaseSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF51A0FA25E26B6000C40B73 /* BaseSlider.swift */; };
+		BF5249ED25DE99580046C07A /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5249EC25DE99580046C07A /* SpotifyiOS.framework */; };
 		BF59AB1925DE8D6000DC9583 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF59AB1825DE8D6000DC9583 /* AppDelegate.swift */; };
 		BF59AB1B25DE8D6000DC9583 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF59AB1A25DE8D6000DC9583 /* SceneDelegate.swift */; };
-		BF59AB1D25DE8D6000DC9583 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF59AB1C25DE8D6000DC9583 /* ContentView.swift */; };
 		BF59AB1F25DE8D6100DC9583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF59AB1E25DE8D6100DC9583 /* Assets.xcassets */; };
 		BF59AB2225DE8D6100DC9583 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF59AB2125DE8D6100DC9583 /* Preview Assets.xcassets */; };
 		BF59AB2525DE8D6100DC9583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF59AB2325DE8D6100DC9583 /* LaunchScreen.storyboard */; };
 		BF59AB3025DE8D6100DC9583 /* Trendz_MusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF59AB2F25DE8D6100DC9583 /* Trendz_MusicTests.swift */; };
 		BF59AB3B25DE8D6100DC9583 /* Trendz_MusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF59AB3A25DE8D6100DC9583 /* Trendz_MusicUITests.swift */; };
+		BF69B00625E14A7200D96CD4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF69B00525E14A7200D96CD4 /* LoginViewController.swift */; };
+		BF69B02225E14CA800D96CD4 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF69B02125E14CA800D96CD4 /* Utility.swift */; };
+		BF69B03225E1502200D96CD4 /* UnifiedWebApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF69B03125E1502200D96CD4 /* UnifiedWebApiClient.swift */; };
+		BF69B03725E1509800D96CD4 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF69B03625E1509800D96CD4 /* Header.swift */; };
+		BF69B03C25E150F400D96CD4 /* Parameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF69B03B25E150F400D96CD4 /* Parameter.swift */; };
+		BF69B04925E153A400D96CD4 /* TokenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF69B04825E153A400D96CD4 /* TokenModel.swift */; };
+		BF69B05125E15BC900D96CD4 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF69B05025E15BC900D96CD4 /* AlbumViewController.swift */; };
+		BF69B05A25E1649000D96CD4 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF69B05925E1649000D96CD4 /* AlbumCell.swift */; };
+		BF69B05F25E168CA00D96CD4 /* UserDefaultUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF69B05E25E168CA00D96CD4 /* UserDefaultUtil.swift */; };
+		BF69B07225E16CE200D96CD4 /* AlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF69B07125E16CE200D96CD4 /* AlbumModel.swift */; };
+		BF69B07E25E17CEA00D96CD4 /* IndividualAlbumscreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF69B07D25E17CEA00D96CD4 /* IndividualAlbumscreen.swift */; };
+		BF69B08A25E180AA00D96CD4 /* TrackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF69B08925E180AA00D96CD4 /* TrackModel.swift */; };
+		BF69B08F25E182B200D96CD4 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF69B08E25E182B200D96CD4 /* AudioPlayer.swift */; };
+		CA10F96DBFD7DCEDEC999DD9 /* Pods_Trendz_Music_Trendz_MusicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188DE5D2719E397426E37E39 /* Pods_Trendz_Music_Trendz_MusicUITests.framework */; };
+		EA3BC2567C758F93DFAFA23C /* Pods_Trendz_Music.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE7E8CF63F257E2C557D1C6 /* Pods_Trendz_Music.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +58,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14813A042A9B52CF3A38A975 /* Pods-Trendz Music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trendz Music.debug.xcconfig"; path = "Target Support Files/Pods-Trendz Music/Pods-Trendz Music.debug.xcconfig"; sourceTree = "<group>"; };
+		188DE5D2719E397426E37E39 /* Pods_Trendz_Music_Trendz_MusicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trendz_Music_Trendz_MusicUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62251BD7125D862914CB3480 /* Pods-Trendz MusicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trendz MusicTests.debug.xcconfig"; path = "Target Support Files/Pods-Trendz MusicTests/Pods-Trendz MusicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		82682D0B4B67A82466707C03 /* Pods-Trendz Music-Trendz MusicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trendz Music-Trendz MusicUITests.release.xcconfig"; path = "Target Support Files/Pods-Trendz Music-Trendz MusicUITests/Pods-Trendz Music-Trendz MusicUITests.release.xcconfig"; sourceTree = "<group>"; };
+		83F27EC7AF8A510A5AB5DE15 /* Pods-Trendz Music.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trendz Music.release.xcconfig"; path = "Target Support Files/Pods-Trendz Music/Pods-Trendz Music.release.xcconfig"; sourceTree = "<group>"; };
+		A02B35CE67B3E030ECA3DBE2 /* Pods-Trendz MusicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trendz MusicTests.release.xcconfig"; path = "Target Support Files/Pods-Trendz MusicTests/Pods-Trendz MusicTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF51A0A425E2051D00C40B73 /* ExppiredToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExppiredToken.swift; sourceTree = "<group>"; };
+		BF51A0BC25E21C7E00C40B73 /* DateFormatUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatUtil.swift; sourceTree = "<group>"; };
+		BF51A0D125E21FE400C40B73 /* TimeInterval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeInterval.swift; sourceTree = "<group>"; };
+		BF51A0DC25E24FB600C40B73 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		BF51A0ED25E25F0B00C40B73 /* SongCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
+		BF51A0F525E26B2C00C40B73 /* PlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
+		BF51A0FA25E26B6000C40B73 /* BaseSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSlider.swift; sourceTree = "<group>"; };
+		BF5249EC25DE99580046C07A /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyiOS.framework; sourceTree = "<group>"; };
+		BF5249FB25DE9CC60046C07A /* Trendz Music-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Trendz Music-Bridging-Header.h"; sourceTree = "<group>"; };
 		BF59AB1525DE8D6000DC9583 /* Trendz Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trendz Music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF59AB1825DE8D6000DC9583 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF59AB1A25DE8D6000DC9583 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BF59AB1C25DE8D6000DC9583 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF59AB1E25DE8D6100DC9583 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF59AB2125DE8D6100DC9583 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF59AB2425DE8D6100DC9583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +86,22 @@
 		BF59AB3625DE8D6100DC9583 /* Trendz MusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trendz MusicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF59AB3A25DE8D6100DC9583 /* Trendz_MusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trendz_MusicUITests.swift; sourceTree = "<group>"; };
 		BF59AB3C25DE8D6100DC9583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF69B00525E14A7200D96CD4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BF69B02125E14CA800D96CD4 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		BF69B03125E1502200D96CD4 /* UnifiedWebApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnifiedWebApiClient.swift; sourceTree = "<group>"; };
+		BF69B03625E1509800D96CD4 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		BF69B03B25E150F400D96CD4 /* Parameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameter.swift; sourceTree = "<group>"; };
+		BF69B04825E153A400D96CD4 /* TokenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenModel.swift; sourceTree = "<group>"; };
+		BF69B05025E15BC900D96CD4 /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		BF69B05925E1649000D96CD4 /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		BF69B05E25E168CA00D96CD4 /* UserDefaultUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultUtil.swift; sourceTree = "<group>"; };
+		BF69B07125E16CE200D96CD4 /* AlbumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumModel.swift; sourceTree = "<group>"; };
+		BF69B07D25E17CEA00D96CD4 /* IndividualAlbumscreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualAlbumscreen.swift; sourceTree = "<group>"; };
+		BF69B08925E180AA00D96CD4 /* TrackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackModel.swift; sourceTree = "<group>"; };
+		BF69B08E25E182B200D96CD4 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		CFE7E8CF63F257E2C557D1C6 /* Pods_Trendz_Music.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trendz_Music.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC82325936DC014624E1816 /* Pods-Trendz Music-Trendz MusicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trendz Music-Trendz MusicUITests.debug.xcconfig"; path = "Target Support Files/Pods-Trendz Music-Trendz MusicUITests/Pods-Trendz Music-Trendz MusicUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0935EC6E26247023FDA27E0 /* Pods_Trendz_MusicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trendz_MusicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +109,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF5249ED25DE99580046C07A /* SpotifyiOS.framework in Frameworks */,
+				EA3BC2567C758F93DFAFA23C /* Pods_Trendz_Music.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23FADFA81050629B061BE419 /* Pods_Trendz_MusicTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +126,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA10F96DBFD7DCEDEC999DD9 /* Pods_Trendz_Music_Trendz_MusicUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		617A9DE73898B381CFE946A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14813A042A9B52CF3A38A975 /* Pods-Trendz Music.debug.xcconfig */,
+				83F27EC7AF8A510A5AB5DE15 /* Pods-Trendz Music.release.xcconfig */,
+				DAC82325936DC014624E1816 /* Pods-Trendz Music-Trendz MusicUITests.debug.xcconfig */,
+				82682D0B4B67A82466707C03 /* Pods-Trendz Music-Trendz MusicUITests.release.xcconfig */,
+				62251BD7125D862914CB3480 /* Pods-Trendz MusicTests.debug.xcconfig */,
+				A02B35CE67B3E030ECA3DBE2 /* Pods-Trendz MusicTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		96626A4967276EB3936F624F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFE7E8CF63F257E2C557D1C6 /* Pods_Trendz_Music.framework */,
+				188DE5D2719E397426E37E39 /* Pods_Trendz_Music_Trendz_MusicUITests.framework */,
+				F0935EC6E26247023FDA27E0 /* Pods_Trendz_MusicTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BF59AB0C25DE8D6000DC9583 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +163,8 @@
 				BF59AB2E25DE8D6100DC9583 /* Trendz MusicTests */,
 				BF59AB3925DE8D6100DC9583 /* Trendz MusicUITests */,
 				BF59AB1625DE8D6000DC9583 /* Products */,
+				617A9DE73898B381CFE946A3 /* Pods */,
+				96626A4967276EB3936F624F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,12 +183,17 @@
 			children = (
 				BF59AB1825DE8D6000DC9583 /* AppDelegate.swift */,
 				BF59AB1A25DE8D6000DC9583 /* SceneDelegate.swift */,
-				BF59AB1C25DE8D6000DC9583 /* ContentView.swift */,
-				BF59AB4B25DE8D9C00DC9583 /* ConfigurationModule */,
+				BF69B03025E14FCE00D96CD4 /* Network */,
+				BF69B02025E14C9A00D96CD4 /* Common */,
+				BF69B04725E1538B00D96CD4 /* Model */,
+				BF69B05825E1647200D96CD4 /* Views */,
+				BF69B01925E14C2600D96CD4 /* Controllers */,
 				BF59AB1E25DE8D6100DC9583 /* Assets.xcassets */,
 				BF59AB2325DE8D6100DC9583 /* LaunchScreen.storyboard */,
 				BF59AB2625DE8D6100DC9583 /* Info.plist */,
+				BF5249EC25DE99580046C07A /* SpotifyiOS.framework */,
 				BF59AB2025DE8D6100DC9583 /* Preview Content */,
+				BF5249FB25DE9CC60046C07A /* Trendz Music-Bridging-Header.h */,
 			);
 			path = "Trendz Music";
 			sourceTree = "<group>";
@@ -137,11 +224,59 @@
 			path = "Trendz MusicUITests";
 			sourceTree = "<group>";
 		};
-		BF59AB4B25DE8D9C00DC9583 /* ConfigurationModule */ = {
+		BF69B01925E14C2600D96CD4 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BF69B00525E14A7200D96CD4 /* LoginViewController.swift */,
+				BF69B05025E15BC900D96CD4 /* AlbumViewController.swift */,
+				BF69B07D25E17CEA00D96CD4 /* IndividualAlbumscreen.swift */,
+				BF51A0F525E26B2C00C40B73 /* PlayerController.swift */,
 			);
-			path = ConfigurationModule;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BF69B02025E14C9A00D96CD4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BF69B02125E14CA800D96CD4 /* Utility.swift */,
+				BF69B05E25E168CA00D96CD4 /* UserDefaultUtil.swift */,
+				BF69B08E25E182B200D96CD4 /* AudioPlayer.swift */,
+				BF51A0BC25E21C7E00C40B73 /* DateFormatUtil.swift */,
+				BF51A0D125E21FE400C40B73 /* TimeInterval.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BF69B03025E14FCE00D96CD4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BF69B03125E1502200D96CD4 /* UnifiedWebApiClient.swift */,
+				BF69B03625E1509800D96CD4 /* Header.swift */,
+				BF69B03B25E150F400D96CD4 /* Parameter.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BF69B04725E1538B00D96CD4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF69B04825E153A400D96CD4 /* TokenModel.swift */,
+				BF69B07125E16CE200D96CD4 /* AlbumModel.swift */,
+				BF69B08925E180AA00D96CD4 /* TrackModel.swift */,
+				BF51A0A425E2051D00C40B73 /* ExppiredToken.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF69B05825E1647200D96CD4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF69B05925E1649000D96CD4 /* AlbumCell.swift */,
+				BF51A0DC25E24FB600C40B73 /* BaseView.swift */,
+				BF51A0FA25E26B6000C40B73 /* BaseSlider.swift */,
+				BF51A0ED25E25F0B00C40B73 /* SongCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +286,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF59AB3F25DE8D6100DC9583 /* Build configuration list for PBXNativeTarget "Trendz Music" */;
 			buildPhases = (
+				69CD652BD9AF73DF50353C7D /* [CP] Check Pods Manifest.lock */,
 				BF59AB1125DE8D6000DC9583 /* Sources */,
 				BF59AB1225DE8D6000DC9583 /* Frameworks */,
 				BF59AB1325DE8D6000DC9583 /* Resources */,
+				13BB4EA449273E7B6887A68A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -168,6 +305,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF59AB4225DE8D6100DC9583 /* Build configuration list for PBXNativeTarget "Trendz MusicTests" */;
 			buildPhases = (
+				FB3448E4A93B2AC119288CAC /* [CP] Check Pods Manifest.lock */,
 				BF59AB2725DE8D6100DC9583 /* Sources */,
 				BF59AB2825DE8D6100DC9583 /* Frameworks */,
 				BF59AB2925DE8D6100DC9583 /* Resources */,
@@ -186,9 +324,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF59AB4525DE8D6100DC9583 /* Build configuration list for PBXNativeTarget "Trendz MusicUITests" */;
 			buildPhases = (
+				774BB75B68EBAB425A8A6130 /* [CP] Check Pods Manifest.lock */,
 				BF59AB3225DE8D6100DC9583 /* Sources */,
 				BF59AB3325DE8D6100DC9583 /* Frameworks */,
 				BF59AB3425DE8D6100DC9583 /* Resources */,
+				A92E6FCF824DCB747C0BD7BB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -211,6 +351,7 @@
 				TargetAttributes = {
 					BF59AB1425DE8D6000DC9583 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					BF59AB2A25DE8D6100DC9583 = {
 						CreatedOnToolsVersion = 12.4;
@@ -269,14 +410,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13BB4EA449273E7B6887A68A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trendz Music/Pods-Trendz Music-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trendz Music/Pods-Trendz Music-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trendz Music/Pods-Trendz Music-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69CD652BD9AF73DF50353C7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trendz Music-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		774BB75B68EBAB425A8A6130 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trendz Music-Trendz MusicUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A92E6FCF824DCB747C0BD7BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trendz Music-Trendz MusicUITests/Pods-Trendz Music-Trendz MusicUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trendz Music-Trendz MusicUITests/Pods-Trendz Music-Trendz MusicUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trendz Music-Trendz MusicUITests/Pods-Trendz Music-Trendz MusicUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB3448E4A93B2AC119288CAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trendz MusicTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF59AB1125DE8D6000DC9583 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF51A0A525E2051D00C40B73 /* ExppiredToken.swift in Sources */,
+				BF51A0D225E21FE400C40B73 /* TimeInterval.swift in Sources */,
+				BF69B07E25E17CEA00D96CD4 /* IndividualAlbumscreen.swift in Sources */,
+				BF69B02225E14CA800D96CD4 /* Utility.swift in Sources */,
+				BF69B08F25E182B200D96CD4 /* AudioPlayer.swift in Sources */,
+				BF69B07225E16CE200D96CD4 /* AlbumModel.swift in Sources */,
+				BF69B03225E1502200D96CD4 /* UnifiedWebApiClient.swift in Sources */,
+				BF69B00625E14A7200D96CD4 /* LoginViewController.swift in Sources */,
+				BF51A0EE25E25F0B00C40B73 /* SongCell.swift in Sources */,
+				BF69B05125E15BC900D96CD4 /* AlbumViewController.swift in Sources */,
 				BF59AB1925DE8D6000DC9583 /* AppDelegate.swift in Sources */,
+				BF51A0F625E26B2C00C40B73 /* PlayerController.swift in Sources */,
+				BF69B03725E1509800D96CD4 /* Header.swift in Sources */,
+				BF69B05F25E168CA00D96CD4 /* UserDefaultUtil.swift in Sources */,
+				BF69B08A25E180AA00D96CD4 /* TrackModel.swift in Sources */,
+				BF69B04925E153A400D96CD4 /* TokenModel.swift in Sources */,
+				BF69B05A25E1649000D96CD4 /* AlbumCell.swift in Sources */,
+				BF51A0BD25E21C7E00C40B73 /* DateFormatUtil.swift in Sources */,
+				BF51A0DD25E24FB600C40B73 /* BaseView.swift in Sources */,
+				BF51A0FB25E26B6000C40B73 /* BaseSlider.swift in Sources */,
+				BF69B03C25E150F400D96CD4 /* Parameter.swift in Sources */,
 				BF59AB1B25DE8D6000DC9583 /* SceneDelegate.swift in Sources */,
-				BF59AB1D25DE8D6000DC9583 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +637,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -429,7 +692,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -441,20 +704,31 @@
 		};
 		BF59AB4025DE8D6100DC9583 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14813A042A9B52CF3A38A975 /* Pods-Trendz Music.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Trendz Music/Preview Content\"";
-				DEVELOPMENT_TEAM = V4VJMATRT2;
+				DEVELOPMENT_TEAM = 7KV7Y4QP2Z;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Trendz\\ Music",
+				);
 				INFOPLIST_FILE = "Trendz Music/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.stephy.trendzmusic.Trendz-Music";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rogueknight1726.rndcollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Trendz Music/Trendz Music-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,20 +736,28 @@
 		};
 		BF59AB4125DE8D6100DC9583 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83F27EC7AF8A510A5AB5DE15 /* Pods-Trendz Music.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Trendz Music/Preview Content\"";
-				DEVELOPMENT_TEAM = V4VJMATRT2;
+				DEVELOPMENT_TEAM = 7KV7Y4QP2Z;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Trendz\\ Music",
+				);
 				INFOPLIST_FILE = "Trendz Music/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.stephy.trendzmusic.Trendz-Music";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rogueknight1726.rndcollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Trendz Music/Trendz Music-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -483,6 +765,7 @@
 		};
 		BF59AB4325DE8D6100DC9583 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62251BD7125D862914CB3480 /* Pods-Trendz MusicTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +788,7 @@
 		};
 		BF59AB4425DE8D6100DC9583 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A02B35CE67B3E030ECA3DBE2 /* Pods-Trendz MusicTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -527,6 +811,7 @@
 		};
 		BF59AB4625DE8D6100DC9583 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAC82325936DC014624E1816 /* Pods-Trendz Music-Trendz MusicUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -547,6 +832,7 @@
 		};
 		BF59AB4725DE8D6100DC9583 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82682D0B4B67A82466707C03 /* Pods-Trendz Music-Trendz MusicUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
